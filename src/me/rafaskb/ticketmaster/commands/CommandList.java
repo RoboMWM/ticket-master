@@ -81,7 +81,7 @@ public class CommandList extends Command {
 		// Get statuses sender wants to see
 		TicketStatus[] statuses = null;
 		if(status == null)
-			statuses = new TicketStatus[] {TicketStatus.PENDING, TicketStatus.ONHOLD};
+			statuses = new TicketStatus[] {TicketStatus.PENDING, TicketStatus.ONHOLD, TicketStatus.CLAIMED};
 		else
 			statuses = new TicketStatus[] {status};
 		

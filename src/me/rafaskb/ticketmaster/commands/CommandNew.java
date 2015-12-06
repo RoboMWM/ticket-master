@@ -71,7 +71,7 @@ public class CommandNew extends Command {
 						players.remove(player);
 					}
 				}
-			}.runTaskLater(TicketMaster.getInstance(), 20 * 60);
+			}.runTaskLater(TicketMaster.getInstance(), 20 * 15);
 		}
 		
 		// If it failed (should never happen), send failure message

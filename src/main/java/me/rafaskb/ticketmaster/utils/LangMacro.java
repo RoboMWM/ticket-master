@@ -5,7 +5,7 @@ import me.rafaskb.ticketmaster.models.TicketStatus;
 
 public class LangMacro {
 	public static String replaceId(String string, int id) {
-		return replace(string, "<id>", "#" + id);
+		return replace(string, "<id>", string.valueOf(id));
 	}
 	
 	public static String replaceAmount(String string, int amount) {
